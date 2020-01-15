@@ -1,0 +1,3 @@
+.inline  .dropdown-item{display: inline-block; width: auto; padding: 3px 15px 3px 0px; font-size: 14px;}
+.col-md-4{width: 1000px;}
+[class*="mt"]{width: 100%;}
