@@ -16,7 +16,7 @@ class postItems extends Component {
             return (
                 <div className="col-12 col-sm-6 col-md-4  mb-4" id={d.id} key={d.id}>
                     <div className="border p-0 h-100">
-                        <img src={d.images} className="img-fluid" alt="" />
+                        <img src={`https://picsum.photos/400/300?random=${d.id}`} className="img-fluid" alt="" />
                         <div className="p-3">
                         <h3 className="h5 pt-2">{d.name}</h3>
                         <p className="dic_h50">{d.description}</p>
